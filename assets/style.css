@@ -1,38 +1,4 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@MariaHdezG 
-MariaHdezG
-/
-love-running1
-Public
-generated from Code-Institute-Org/gitpod-full-template
-Cannot fork because you own this repository and are not a member of any organizations.
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-add sign-up form and style, form style and hover-buttom
- main
-@MariaHdezG
-MariaHdezG committed 2 days ago 
-1 parent 7d6a14b
-commit 52ec7f5
-Showing 1 changed file with 396 additions and 289 deletions.
- 685  
-assets/css/style.css
-Comment on this file
-@@ -1,289 +1,396 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
 	* {
