@@ -1,10 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;400&family=Lato:wght@300&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
-body {
-	background-color: rgb(241, 209, 165);
-
-}
 
 	* {
 	 margin: 0;
@@ -16,23 +12,20 @@ body {
 	 font-family: Lato, sans-serif;
 	 font-weight: 300;
 	 color: #3a3a3a;
+	 background-color: #f0ead6;
 	}
 
 	/* headings and logo */
 
-	h1, h2 {
-	 font-family: Oswald, sans-serif;
-	 text-transform: uppercase;
+	h1, h2, h3, h4 {
+	 font-family: Gothic+A1, arial;
 	 letter-spacing: 4px;
 	 color: #252525;
+	  background-color: #f0ead6;
+	  text-align: center;
 	}
 
-	#logo {
-	 float: left;
-	 font-size: 280%;
-	 margin-left: 30px;
-	}
-
+	
 	/* navigation links */
 
 	#menu {
@@ -80,10 +73,15 @@ body {
 	 color: #fff;
 	}
 
+	div .box {
+		width: 300px;
+		padding: 50px;
+		margin: 25px;
+	  }
 	#hero-image {
 	 height: 600px;
 	 width: 100%;
-	 background: url('../images/hero-image.webp') no-repeat center center;
+	 background: ('..//hero-image.webp') no-repeat center center;
 
 	 /* animates zoom effect on loading page */
 	 animation-name: hero-zoom;
@@ -101,45 +99,45 @@ body {
 	 }
 	}
 
-	#cover-text {
-	 font-size: 130%;
-	 font-family: Oswald, sans-serif;
-	 text-transform: uppercase;
-	 letter-spacing: 4px;
 
-	 width: 300px;
-	 height: 200px;
 
-	 padding-top: 40px;
-	 padding-left: 10px;
+	/*text first page*/
 
-	 background-color: rgba(241, 109, 107, .7);
-
-	 bottom: 30px;
-	 right: 150px;
-
-	 position: absolute;
-	}
-
-	/* club ethos */
-
-	#club-ethos {
-	 height: 600px;
-	}
-
-	#left-about {
+	
+	.left-about-heading h4 {
+		width: 60%;
+		float: right;
+		line-height: 20px;
+		clear: both;
+		margin-bottom: 50px;
+	   }
+   
+	#left-about p {
 	 padding-top: 30px;
 	 width: 33%;
 	 float: left;
 	}
-
-	#right-about {
+	.right-about-heading h4 {
+		width: 60%;
+		float: right;
+		line-height: 20px;
+		clear: both;
+		margin-bottom: 50px;
+	   }
+   
+	.right-about p {
 	 padding-top: 30px;
 	 width: 33%;
 	 float: right;
 	}
-
-	#center-about {
+ .center-about-heading h4 {
+	width: 60%;
+	float: center;
+	line-height: 20px;
+	clear: both;
+	margin-bottom: 50px;
+ }
+	.center-about p {
 	 width: 33%;
 	 margin: 0 auto;
 	}
@@ -150,25 +148,8 @@ body {
 	 margin: 5px 0;
 	}
 
-	.left-about-heading {
-	 width: 60%;
-	 float: right;
-	 line-height: 20px;
-	 clear: both;
-	 margin-bottom: 50px;
-	}
+	
 
-	.right-about-heading {
-	 width: 60%;
-	 float: left;
-	 line-height: 20px;
-	 clear: both;
-	 margin-bottom: 50px;
-	}
-
-	.right-about-heading h2 {
-	 text-align: right;
-	}
 
 	.right-about-heading p {
 	 text-align: right;
@@ -180,44 +161,8 @@ body {
 	 font-size: 280%;
 	}
 
-	#circle-container {
-	 width: 300px;
-	 height: 300px;
-	 padding: 30px;
-	 border-style: solid;
-	 border-color: #ccc;
-	 border-width: 1px;
-	 border-radius: 50%;
-	 background: url('../images/ethos-center-image.bmp') no-repeat center center;
+	
 
-	}
-
-	/* event times */
-
-	#times {
-	 background-image: url("/assets/images/times-background.bmp");
-
-	 background-repeat: no-repeat;
-	 background-size: cover;
-	 background-position: center;
-	 width: 100%;
-	 overflow: hidden;
-	}
-	#times div {
-		color: #fafafa;
-		background-color: rgba(0,0,0, .6);
-		width: 20%;
-		height: 300px;
-		float:left;
-		padding:30px 0 0 10px;
-		text-align: center;
-		border: 2px solid white;
-		box-sizing: border-box;
-
-	}
-	#times h2{
-		color:#fafafa;
-	}
 
 	footer {
 		height 150px;
@@ -254,11 +199,7 @@ column-gap: 0px;
 /* For larger to medium screens size from 1200px width and down */
 	@media screen and (max-width:1200px) { 
 
-	#club-ethos {
-		width: 65%;
-		height: 1200px;
-		margin: 0 auto;
-
+	
 	}
 
 	#welcome {
@@ -267,7 +208,6 @@ column-gap: 0px;
 	}
 	#left-about, #right-about {
 		width: 100%;
-		float: left;
 		padding: 0;
 	}
 
@@ -275,15 +215,11 @@ column-gap: 0px;
 
 		clear: both;
 		width: 100%;
-		float: left;
+		float: center;
 		padding: 0;
 
 	}
-
-	hr {
-
-		display: none;
-	}
+	
 }
 /* for medium screen sizes from 950px wide and down */
 
@@ -367,7 +303,7 @@ h1, h2{
 #hero-image{
     height:600px;
     width: 100%;
-    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat center center;
+    background:("https://images.unsplash.com/photo-1514539079130-25950c84af65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80")
 
     /* Animates zoom effect on loading the page */
     animation-name: hero-zoom;
@@ -409,8 +345,29 @@ h1, h2{
     position: absolute;
 
 }
+#welcome {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 280%;
+}
 
-/* Club ethos */
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/video-mask.png") no-repeat center center;
+    height: 100%;
+    
+}
+
 
 #club-ethos{
     height: 600px;
@@ -463,7 +420,7 @@ hr {
     text-align: right;
 }
 
-/* Club ethos center image */
+
 
 #welcome {
     margin: 20px 0;
@@ -471,49 +428,8 @@ hr {
     font-size: 280%;
 }
 
-#circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #cccccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
+    
 
-#circle-cover-bg {
-    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/video-mask.png") no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-}
-
-/* Event times */
-
-#times{
-    background-image: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/dublin-city.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
-}
-
-#times div {
-    color: #fafafa;
-    background-color: rgba(0,0,0, .6);
-    width: 20%;
-    height: 300px;
-    float: left;
-    padding: 30px 0 0 10px;
-    text-align: center;
-    border: 2px solid white;
-    box-sizing: border-box;
-}
-
-#times h2 {
-    color: #fafafa;
-}
 
 /* Footer */
 
@@ -527,7 +443,9 @@ footer{
 }
 
 .social-networks li{
-    display: inline;
+    display: inline-block; 
+
+	  }
 }
 
 .social-networks i{
@@ -539,26 +457,35 @@ footer{
 
 /* Gallery Photos */
 
-#photo {
+#photos {
     clear: both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0px;
+    line-height: 100px;
+    column-count: 2;
+    column-gap: 100px;
 }
 
-#photo img{
-    width: 100%;
+#photos img{
+    width: 150%;
 }
 
 /* Form */
 
 .form-section {
     clear: left;
-    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+    background: url("https://media.istockphoto.com/id/1159222457/photo/historic-bodiam-castle-and-moat-in-east-sussex.jpg?s=612x612&w=0&k=20&c=Y7iXtKIhme9qIuzqcjCYhqGT6kHoXdrJwp_2UuLGzKA=");
     background-size: cover;
     background-position: center;
     height: 900px;
 }
+#sign-up {
+	background-image: url() no-repeat center center;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	overflow: hidden;
+   }
 
 .signup-form {
     margin: 150px 10% 0 0;
@@ -569,6 +496,7 @@ footer{
     left: 10%;
     padding: 30px;
 }
+
 
 .signup-form > h2 {
     color: #fafafa;
@@ -586,7 +514,7 @@ footer{
 }
 
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: #e4caca;
 }
 
 .join-button {
@@ -595,26 +523,21 @@ footer{
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
-    color: #fafafa;
+    background-color: #e9d289;
+    color: #131212;
     display: block;
 }
 
 .join-button:hover {
-    background-color: #fafafa;
-    color: #f16c6b;
+    background-color: #35a5e6;
+    color: #131212;
 }
 
 /* Media queries */
 
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px){
-    #club-ethos{
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
+    
     #welcome {
         padding: 30px 0;
         margin-top: 0;
@@ -633,7 +556,7 @@ footer{
         padding: 0;
     }
 
-    #times div {
+    #timeline div {
         width: 100%;
         clear: both;
         height: 150px;
@@ -660,11 +583,6 @@ footer{
         left:0;
     }
 
-    #club-ethos{
-        width:90%;
-        height: 1200px;
-        margin: 0 auto;
-    }
 
     .left-about-heading, .right-about-heading{
         width: inherit;
@@ -690,4 +608,9 @@ footer{
     #photo{
         column-count: 2;
     }
+	.teaser p {
+text: Arial;
+text-align: center;
+	}
+
 }
