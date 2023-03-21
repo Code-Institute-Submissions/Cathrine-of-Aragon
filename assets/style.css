@@ -303,7 +303,7 @@ h1, h2{
 #hero-image{
     height:600px;
     width: 100%;
-    background:("https://images.unsplash.com/photo-1514539079130-25950c84af65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80")
+    background:()
 
     /* Animates zoom effect on loading the page */
     animation-name: hero-zoom;
@@ -465,7 +465,9 @@ footer{
 }
 
 #photos img{
-    width: 150%;
+    width: 90%;
+    height: 90%
+   g paddin
 }
 
 /* Form */
