@@ -85,8 +85,8 @@
     height:600px;
     width: 100%;
     background: url("/assets/images/Cathrine-hero1.jpg");
-	background: no repeat;
-	background: center;
+	background-repeat: no repeat;
+
 
 
     /* Animates zoom effect on loading the page */
@@ -189,7 +189,8 @@ footer{
 
 .form-section {
     clear: left;
-    background: url("https://media.istockphoto.com/id/1159222457/photo/historic-bodiam-castle-and-moat-in-east-sussex.jpg?s=612x612&w=0&k=20&c=Y7iXtKIhme9qIuzqcjCYhqGT6kHoXdrJwp_2UuLGzKA=");
+    background: url("../images/castle_england.jpg");  
+	background-repeat: no repeat;
     background-size: cover;
     background-position: center;
     height: 900px;
