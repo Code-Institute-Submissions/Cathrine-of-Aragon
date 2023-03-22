@@ -83,9 +83,10 @@
 
 #hero-image {
     height:600px;
-    width: 100%;
-    background: url("/assets/images/Cathrine-hero1.jpg");
-	background-repeat: no repeat;
+    width: 300%;
+    background: url("/assets/images/Cathrine-hero.jpg");
+	background-repeat: no-repeat;
+	background-image: center;
 
 
 
