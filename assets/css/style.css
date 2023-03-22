@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;1,500&display=swap');
+
+
+
+	* {
+	 margin: 0;
+	 padding: 0;
+	 border: none;
+	}
+
+	body {
+	 font-family: helvetica, sans-serif;
+	 font-weight: 300;
+	 color: #3a3a3a;
+	 background-color: #f0ead6;
+	}
+
+	/* headings and logo */
+
+	h1, h2, h4 {
+	 font-family: Garamond, Arial;
+	 letter-spacing: 4px;
+	 color: #252525;
+	  background-color: #f0ead6;
+	  text-transform: uppercase;
+	}
+#welcome {
+	font-family: Garamond; sans-serif;
+
+
+
+	letter-spacing: 5px;
+	color: #252525;
+	background-color: #f0ead6;
+}
+	
+	/* navigation links */
+
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#logo, #menu{
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover{
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active{
+    border-bottom: 1px solid #3a3a3a;
+}
+
+
+	 /* Animates zoom effect on loading the page */
+   animation { animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;}
+
+
+/* Creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+#cover-text, #cover-text h2 {
+    color: #ffffff;
+}
+
+#hero-image{
+    height:600px;
+    width: 100%;
+    background:url(../assets/images/cathrin-of-aragon")
+
+    /* Animates zoom effect on loading the page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+ /* Creates the level of zoom for hero image */
+ @keyframes hero-zoom 
+	 from{
+		 transform: scale(1);
+	 }
+	 to{
+		 transform: scale(1.1);
+	 }
+
+
+
+	/*text first page*/
+
+
+	#left-about-heading h4 {
+		width: 60%;
+		float: right;
+		line-height: 20px;
+		clear: both;
+		margin-bottom: 50px;
+	}
+
+   
+	#left-about p {
+	 padding-top: 30px;
+	 width: 33%;
+	 float: left;
+	}
+	
+ .center-about-heading h4 {
+	width: 60%;
+	float: center;
+	line-height: 20px;
+	clear: both;
+	margin-bottom: 50px;
+ }
+	.center-about p {
+	 width: 33%;
+	 margin: 0 auto;
+	}
+
+	hr {
+	 border-top: 1px solid #3a3a3a;
+	 width: 100%;
+	 margin: 5px 0;
+	}
+
+	#welcome {
+	 text-align: center;
+	 margin: 20px 0;
+	 font-size: 280%;
+	}
+
+	/* Footer */
+
+footer{
+    height: 150px;
+}
+
+.social-networks{
+    text-align: center;
+
+}
+
+.social-networks li{
+    display: inline-block; 
+
+	  }
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+/* Gallery Photos */
+
+#photos {
+    clear: both;
+    line-height: 100px;
+    column-count: 2;
+    column-gap: 100px;
+}
+
+#photos img{
+    width: 90%;
+    height: 90%
+   g paddin
+}
+
+/* Form */
+
+
+.form-section {
+    clear: left;
+    background: url("https://media.istockphoto.com/id/1159222457/photo/historic-bodiam-castle-and-moat-in-east-sussex.jpg?s=612x612&w=0&k=20&c=Y7iXtKIhme9qIuzqcjCYhqGT6kHoXdrJwp_2UuLGzKA=");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+#sign-up {
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	overflow: hidden;
+   }
+
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+
+.signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #e4caca;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #e9d289;
+    color: #131212;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #35a5e6;
+    color: #131212;
+}
+
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px){
+
+    #menu{
+        clear: left;
+        float: left;
+        margin-left: 30px; 
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text{
+        left:0;
+    }
+
+    #club-ethos{
+        width:90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px){
+
+    #menu{
+        clear: left;
+        float: left;
+        margin-left: 30px; 
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text{
+        left:0;
+    }
+
+    #left-about-heading, #center-about-heading{
+        width: inherit;
+    }
+
+    #left-about-heading h2, #center-about-heading h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    #left-about-heading p, #center-about-heading p{
+        text-align: center;
+        padding: 0 20px 0 20px;
+    }
+
+    #photo{
+        column-count: 2;
+    }
+}
+    }
+
+    #left-about-heading h2, #center-about-heading h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    #left-about-heading p, #center-about-heading p{
+        text-align: center;
+        padding: 0 20px 0 20px;
+    }
+
+    #photo{
+        column-count: 3;
+    }
+
+
+/* For small screens sizes from 800px wide and down */
+@media screen and (max-width: 800px){
+    #photo{
+        column-count: 2;
+    }
+}
+
+
