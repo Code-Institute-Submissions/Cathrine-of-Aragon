@@ -17,7 +17,7 @@
 
 	/* headings and logo */
 
-	h1, h2, h4 {
+	 h2 {
 	 font-family: Garamond, Arial;
 	 letter-spacing: 4px;
 	 color: #252525;
@@ -26,12 +26,11 @@
 	}
 #welcome {
 	font-family: Garamond; sans-serif;
-
-
-
 	letter-spacing: 5px;
 	color: #252525;
 	background-color: #f0ead6;
+	font-size: 24px;
+	text-align: center;
 }
 	
 	/* navigation links */
@@ -76,19 +75,19 @@
     from{
         transform: scale(1);
     }
-    to{
+    to {
         transform: scale(1.1);
     }
 }
 
-#cover-text, #cover-text h2 {
-    color: #ffffff;
-}
 
-#hero-image{
+#hero-image {
     height:600px;
     width: 100%;
-    background:url(../assets/images/cathrin-of-aragon")
+    background: url("/assets/images/Cathrine-hero1.jpg");
+	background: no repeat;
+	background: center;
+
 
     /* Animates zoom effect on loading the page */
     animation-name: hero-zoom;
@@ -97,16 +96,15 @@
 }
 
  /* Creates the level of zoom for hero image */
- @keyframes hero-zoom 
-	 from{
+ @keyframes hero-zoom {
+	 from {
 		 transform: scale(1);
 	 }
 	 to{
 		 transform: scale(1.1);
 	 }
-
-
-
+	}
+	
 	/*text first page*/
 
 
@@ -183,7 +181,7 @@ footer{
 #photos img{
     width: 90%;
     height: 90%
-   g paddin
+
 }
 
 /* Form */
@@ -262,15 +260,6 @@ footer{
         line-height: 25px;
     }
 
-    #cover-text{
-        left:0;
-    }
-
-    #club-ethos{
-        width:90%;
-        height: 1200px;
-        margin: 0 auto;
-    }
 
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px){
@@ -282,7 +271,7 @@ footer{
         margin-bottom: 20px;
         line-height: 25px;
     }
-
+}
     #cover-text{
         left:0;
     }
@@ -296,15 +285,13 @@ footer{
         text-align: center;
     }
 
-    #left-about-heading p, #center-about-heading p{
+    #left-about-heading p, #center-about-heading p {
         text-align: center;
         padding: 0 20px 0 20px;
     }
 
-    #photo{
+    #photos{
         column-count: 2;
-    }
-}
     }
 
     #left-about-heading h2, #center-about-heading h2{
@@ -317,8 +304,8 @@ footer{
         padding: 0 20px 0 20px;
     }
 
-    #photo{
-        column-count: 3;
+    #photos{
+        column-count: 2;
     }
 
 
