@@ -47,6 +47,7 @@ font-weight: 600;}
 #menu{
     font-size: 110%;
     letter-spacing: 4px;
+  
 }
 
 #logo, #menu{
@@ -57,6 +58,7 @@ font-weight: 600;}
     float: right;
     list-style-type: none;
     margin-right: 30px;
+    padding-bottom: 10000x;
 }
 
 #menu a {
@@ -88,6 +90,7 @@ font-weight: 600;}
     #logo, #menu{
         line-height: 75px;
     }
+    #logo {padding-left: 10px;}
     
     #menu li {
         float: right;
@@ -206,7 +209,6 @@ footer{
 /* Gallery Paintings */
 
 
-
 .paintings img{
     padding-top: 120px;
    column-gap: 20px;
@@ -227,7 +229,6 @@ footer{
 
   #magdalena { padding-left: 500px;
 }
-
 
 
 
@@ -300,7 +301,7 @@ footer{
 }
 
 /* For medium screens sizes from 950px wide and down */
-@media screen and (max-width: 950px){
+@media screen and (max-width: 950px)
 
     #menu{
         clear: left;
@@ -353,13 +354,13 @@ footer{
     }
 
     #paintings{
-        column-count: 2;
+        column-count: 1;
     }
 
 
 /* For small screens sizes from 800px wide and down */
 @media screen and (max-width: 800px){
     #paintings{
-        column-count: 2;
+        column-count: 1;
     }
 }
