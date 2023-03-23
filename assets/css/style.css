@@ -9,31 +9,40 @@
 	}
 
 	body {
-	 font-family: helvetica, sans-serif;
+	 font-family: Garamond, sans-serif;
 	 font-weight: 300;
 	 color: #3a3a3a;
-	 background-color: #f0ead6;
+     background-color: rgba( 243, 229, 171);
 	}
+
+
+    
 
 	/* headings and logo */
+#logo {font-family: helvetica;
+font-weight: 600;}
 
-	 h2 {
-	 font-family: Garamond, Arial;
-	 letter-spacing: 4px;
-	 color: #252525;
-	  background-color: #f0ead6;
-	  text-transform: uppercase;
+	 h1, h2 {
+	font-family: Helvetica, Arial;
+	letter-spacing: 4px;
+	color: #252525;
+	text-transform: uppercase;
+
 	}
+
 #welcome {
-	font-family: Garamond; sans-serif;
+	font-family: Helvetica, sans-serif;
+	font-weight:400;
 	letter-spacing: 5px;
 	color: #252525;
-	background-color: #f0ead6;
-	font-size: 24px;
 	text-align: center;
-}
+        text-align: center;
+        margin: 20px 0;
+        font-size: 280%;
+       }
+   
 	
-	/* navigation links */
+    * navigation links */
 
 #menu{
     font-size: 110%;
@@ -64,11 +73,40 @@
 }
 
 
+
+
 	 /* Animates zoom effect on loading the page */
+
    animation { animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;}
-
+    #menu{
+        font-size: 110%;
+        letter-spacing: 4px;
+    }
+    
+    #logo, #menu{
+        line-height: 75px;
+    }
+    
+    #menu li {
+        float: right;
+        list-style-type: none;
+        margin-right: 30px;
+    }
+    
+    #menu a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
+    
+    .active{
+        border-bottom: 1px solid #3a3a3a;
+    }
 
 /* Creates the level of zoom for hero image */
 @keyframes hero-zoom {
@@ -82,15 +120,10 @@
 
 
 #hero-image {
-    height:600px;
-    width: 300%;
-    background: url("/assets/images/Cathrine-hero.jpg");
-	background-repeat: no-repeat;
-	background-image: center;
-
-
-
-    /* Animates zoom effect on loading the page */
+    height: 450px;
+    width: 100%;
+    background: url("/assets/images/catherin-of-aragon-hero2.jpg") no-repeat center center;
+	/* Animates zoom effect on loading the page */
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -142,16 +175,16 @@
 	 margin: 5px 0;
 	}
 
-	#welcome {
-	 text-align: center;
-	 margin: 20px 0;
-	 font-size: 280%;
-	}
-
+    
 	/* Footer */
 
 footer{
-    height: 150px;
+        position: bottom;
+        bottom: 0px;
+        width: 400px;
+        height: 150px;
+        text-align: center
+ 
 }
 
 .social-networks{
@@ -160,9 +193,9 @@ footer{
 }
 
 .social-networks li{
-    display: inline-block; 
+    display: inline;
+}
 
-	  }
 .social-networks i{
     font-size: 160%;
     margin: 1%;
@@ -170,31 +203,46 @@ footer{
     color: #3a3a3a;
 }
 
-/* Gallery Photos */
+/* Gallery Paintings */
 
-#photos {
-    clear: both;
-    line-height: 100px;
-    column-count: 2;
-    column-gap: 100px;
+
+
+.paintings img{
+    padding-top: 120px;
+   column-gap: 20px;
+   row-gap: 20px;
 }
 
-#photos img{
-    width: 90%;
-    height: 90%
+#girl {
 
+    padding-left: 450px;
 }
+
+
+  #young { padding-left: 400px;
+}
+   
+
+
+
+  #magdalena { padding-left: 500px;
+}
+
+
+
+
+.desc { text-align: center;}
 
 /* Form */
 
 
 .form-section {
     clear: left;
-    background: url("../images/castle_england.jpg");  
+    background: url("../images/castle-chillon-by-the-lake.jpg");  
 	background-repeat: no repeat;
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 700px;
 }
 #sign-up {
 
@@ -232,7 +280,7 @@ footer{
 }
 
 .text-input:hover {
-    border-color: #e4caca;
+    border-color: #db8282;
 }
 
 .join-button {
@@ -241,13 +289,13 @@ footer{
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #e9d289;
+    background-color: #ccb486;
     color: #131212;
     display: block;
 }
 
 .join-button:hover {
-    background-color: #35a5e6;
+    background-color: #cbcacf;
     color: #131212;
 }
 
@@ -274,9 +322,7 @@ footer{
         line-height: 25px;
     }
 }
-    #cover-text{
-        left:0;
-    }
+
 
     #left-about-heading, #center-about-heading{
         width: inherit;
@@ -292,7 +338,7 @@ footer{
         padding: 0 20px 0 20px;
     }
 
-    #photos{
+    #paintings{
         column-count: 2;
     }
 
@@ -306,16 +352,14 @@ footer{
         padding: 0 20px 0 20px;
     }
 
-    #photos{
+    #paintings{
         column-count: 2;
     }
 
 
 /* For small screens sizes from 800px wide and down */
 @media screen and (max-width: 800px){
-    #photo{
+    #paintings{
         column-count: 2;
     }
 }
-
-
