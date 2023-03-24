@@ -144,39 +144,34 @@ font-weight: 600;}
 	
 	/*text first page*/
 
+    
+        
 
-	#left-about-heading h4 {
-		width: 60%;
-		float: right;
-		line-height: 20px;
-		clear: both;
-		margin-bottom: 50px;
-	}
+    
+#timeline-heading {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: Garamond;
+    font-size: 30px;
+letter-spacing: 2px;
+}
 
-   
-	#left-about p {
-	 padding-top: 30px;
-	 width: 33%;
-	 float: left;
-	}
-	
- .center-about-heading h4 {
-	width: 60%;
-	float: center;
-	line-height: 20px;
-	clear: both;
-	margin-bottom: 50px;
- }
-	.center-about p {
-	 width: 33%;
-	 margin: 0 auto;
-	}
+#timeline-list {
+padding-top: 20px;
+text-align: center;
+}
 
-	hr {
-	 border-top: 1px solid #3a3a3a;
-	 width: 100%;
-	 margin: 5px 0;
-	}
+.lifestory {
+
+padding: 50px 20px 0 20px;
+}
+
+.lifestory-heading {
+    padding-top: 20px;
+    font-size: larger;
+}
+
 
     
 	/* Footer */
