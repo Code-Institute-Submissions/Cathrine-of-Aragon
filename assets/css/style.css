@@ -151,16 +151,27 @@ font-weight: 600;}
 #timeline-heading {
     padding-top: 50px;
     padding-bottom: 10px;
-    text-align: center;
+    padding-left: 20px;
+    text-align: left;
     font-family: Garamond;
     font-size: 30px;
 letter-spacing: 2px;
 }
 
-#timeline-list {
+.timeline-list {
+list-style-type: none; 
 padding-top: 20px;
-text-align: center;
+padding-left: 20px;
+text-align: left;
+width: 22em;
+letter-spacing: 1px;
 }
+
+#tudor-rose {
+    padding-top: 50px;
+    padding-left: 650px;
+}
+
 
 .lifestory {
 
@@ -172,8 +183,6 @@ padding: 50px 20px 0 20px;
     font-size: larger;
 }
 
-
-    
 	/* Footer */
 
 .footer{
