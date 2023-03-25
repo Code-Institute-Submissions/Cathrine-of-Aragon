@@ -159,9 +159,10 @@ letter-spacing: 1px;
 	/*Tudor-rose */
 
 
-    #tudor-rose {
-        padding-top: 50px;
-        padding-left: 650px;
+    #tudor-rose-flex-container {
+        padding-top: 75px;
+        display: flex;
+        justify-content: center;
     }
 
 .lifestory {
