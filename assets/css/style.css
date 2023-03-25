@@ -16,8 +16,6 @@
 	}
 
 
-    
-
 	/* headings and logo */
 #logo {font-family: Helvetica;
 font-weight: 600;
@@ -76,9 +74,6 @@ padding-left: 20px;
     border-bottom: 1px solid #3a3a3a;
 }
 
-
-
-
 	 /* Animates zoom effect on loading the page */
 
    animation { animation-name: hero-zoom;
@@ -115,14 +110,15 @@ padding-left: 20px;
 
 
 #hero-image {
-    height: 450px;
+    height: 300px;
     width: 100%;
-    padding-top: 100px;
+    padding-top: 1px;
     background: url("../images/catherin-of-aragon-hero2.jpg") no-repeat center center;
 	/* Animates zoom effect on loading the page */
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    padding-top: 200px;
     
 }
 
@@ -159,10 +155,10 @@ letter-spacing: 1px;
 	/*Tudor-rose */
 
 
-    #tudor-rose-flex-container {
-        padding-top: 75px;
-        display: flex;
-        justify-content: center;
+    .flex-container-rose {
+        padding-top: 50px;
+        display:flex;
+        justify-content: center;   
     }
 
 .lifestory {
