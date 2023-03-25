@@ -332,6 +332,7 @@ padding: 50px 20px 0 20px;
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px){
 
+
     #menu{
         clear: left;
         float: left;
@@ -339,36 +340,10 @@ padding: 50px 20px 0 20px;
         margin-bottom: 20px;
         line-height: 25px;
     }
+
 }
 
 
-    #left-about-heading, #center-about-heading{
-        width: inherit;
-    }
-
-    #left-about-heading h2, #center-about-heading h2{
-        width: 100%;
-        text-align: center;
-    }
-
-    #left-about-heading p, #center-about-heading p {
-        text-align: center;
-        padding: 0 20px 0 20px;
-    }
-
-    #paintings{
-        column-count: 2;
-    }
-
-    #left-about-heading h2, #center-about-heading h2{
-        width: 100%;
-        text-align: center;
-    }
-
-    #left-about-heading p, #center-about-heading p{
-        text-align: center;
-        padding: 0 20px 0 20px;
-    }
 
     #paintings{
         column-count: 1;
@@ -376,8 +351,27 @@ padding: 50px 20px 0 20px;
 
 
 /* For small screens sizes from 800px wide and down */
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px)
+{
+        #hero-image {
+        
+        
+            max-width: 2%;
+            max-height: 40%;
+            animation: none;
+padding-right: 230%;
+            
+        
+    }
+          #tudor-rose {
+            
+position: relative;
+          
+          }
+        }
+          
+    
     #paintings{
         column-count: 1;
     }
-}
+
