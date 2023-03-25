@@ -113,25 +113,17 @@ padding-left: 20px;
         border-bottom: 1px solid #3a3a3a;
     }
 
-/* Creates the level of zoom for hero image */
-@keyframes hero-zoom {
-    from{
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.1);
-    }
-}
-
 
 #hero-image {
     height: 450px;
     width: 100%;
+    padding-top: 100px;
     background: url("../images/catherin-of-aragon-hero2.jpg") no-repeat center center;
 	/* Animates zoom effect on loading the page */
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    
 }
 
  /* Creates the level of zoom for hero image */
@@ -145,10 +137,6 @@ padding-left: 20px;
 	}
 	
 	/*text first page*/
-
-    
-        
-
     
 #timeline-heading {
     padding-top: 50px;
@@ -168,12 +156,13 @@ text-align: left;
 width: 22em;
 letter-spacing: 1px;
 }
+	/*Tudor-rose */
 
-#tudor-rose {
-    padding-top: 50px;
-    padding-left: 650px;
-}
 
+    #tudor-rose {
+        padding-top: 50px;
+        padding-left: 650px;
+    }
 
 .lifestory {
 
@@ -326,52 +315,36 @@ padding: 50px 20px 0 20px;
     margin-left: 30px; 
     margin-bottom: 20px;
     line-height: 25px;
+    
+}
+#hero-image {
+        
+    max-width: 2%;
+    max-height: 40%;
+    animation: none;
+padding-right: 230%;
+ }
+
+#tudor-rose {
+    display: none;
+
 }
 
 }
-/* For medium screens sizes from 950px wide and down */
-@media screen and (max-width: 950px){
-
-
-    #menu{
-        clear: left;
-        float: left;
-        margin-left: 30px; 
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-
-}
-
-
-
-    #paintings{
-        column-count: 1;
-    }
-
+ 
 
 /* For small screens sizes from 800px wide and down */
-@media screen and (max-width: 800px)
-{
+@media screen and (max-width: 800px){
         #hero-image {
-        
         
             max-width: 2%;
             max-height: 40%;
             animation: none;
 padding-right: 230%;
-            
-        
-    }
+         }
+
           #tudor-rose {
-            
-position: relative;
-          
+            display: none;
           }
         }
           
-    
-    #paintings{
-        column-count: 1;
-    }
-
