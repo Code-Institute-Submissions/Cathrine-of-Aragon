@@ -50,21 +50,19 @@ padding-left: 20px;
 
     }
     #menu{
-        display: flex;
-        flex-direction: row;
-        justify-content: right;
+    
         font-size: 110%;
         letter-spacing: 4px;
-    }
     
-    #logo, #menu{
-        line-height: 75px;
     }
     
     #menu li {
         float: right;
         list-style-type: none;
         margin-right: 30px;
+        display: grid;
+        grid-template-columns: 3;
+    
     }
     
     #menu a {
@@ -89,7 +87,7 @@ padding-left: 20px;
 }
 
 #hero-image {
-    height: 300px;
+    height: 250px;
     width: 100%;
     padding-top: 1px;
     background: url("../images/catherin-of-aragon-hero2.jpg") no-repeat center center;
@@ -154,7 +152,7 @@ padding: 50px 20px 0 20px;
 	/* Footer */
 
 .footer{
-    displapy: flex;
+    display: flex;
     flex-direction: row;
  bottom: 0px;
    height: 150px;
@@ -196,7 +194,7 @@ row-gap: 20px;
     display: flex;  
     width: 30%;
     height: 15%;
-    padding-left: 400px;
+    padding-left: 450px;
     padding-bottom: 350px;
 }
 
@@ -208,7 +206,7 @@ row-gap: 20px;
     display: flex;  
     width: 30%;
     height: 15%; 
-    padding-left: 400px;
+    padding-left: 450px;
     padding-bottom: 300px;
 }
 
@@ -219,7 +217,7 @@ flex-direction: column;
     justify-content: center;  
     width: 30%;
     height: 15%;
-    padding-left: 400px;
+    padding-left: 450px;
     padding-bottom: 400px;
   }
 
@@ -317,38 +315,35 @@ flex-direction: column;
     max-height: 40%;
     animation: none;
 padding-right: 230%;
- }
-#girl-container {
-    flex-direction: column;
-        display: flex;  
-        width: 70%;
-        height: 70%;
-        justify-content: center;
-        padding-left: 0;
-        
-    }
-    
-    
-      #young-container { 
-        flex-direction: column;
-        display: flex;  
-        width: 70%;
-        height: 70%;
-        justify-content: center;
-        padding-left: 0;
-    
-    }
-    
-      #magdalena-container { 
-        flex-direction: column;
-        display: flex;  
-        width: 70%;
-        height: 70%;
-        justify-content: center;
-        padding-left: 0;
-    
-    }
+ }#girl-container {
 
+    flex-direction: column;
+    justify-content: center;
+    display: flex;  
+    width: 70%;
+    height: 70%; 
+    padding: 0px 0 0px 40px;
+  
+    
+}
+
+
+  #young-container { 
+    flex-direction: column;
+    justify-content: center;
+    display: flex;  
+    width: 70%;
+    height: 70%; 
+    padding: 0px 0 0px 40px;
+  
+    
+}
+
+#magdalena-container { 
+    display: flex; 
+        flex-direction: column;
+        justify-content: center;
+    
 }
  
 
@@ -363,18 +358,21 @@ padding-right: 230%;
             animation: none;
 padding-right: 230%;
          }
-
+#logo {
+    font-size: ;
+}
 
 #girl-container {
-    flex-direction: column;
+
+        flex-direction: column;
+        justify-content: center;
         display: flex;  
         width: 70%;
-        height: 70%;
-        justify-content: center;
-        padding-left: 0;
-    
+        height: 70%; 
+        padding: 0px 0 0 40px;
+      
     }
-    
+
     
       #young-container { 
         flex-direction: column;
@@ -382,20 +380,21 @@ padding-right: 230%;
         display: flex;  
         width: 70%;
         height: 70%; 
-        paddig-left: 0;
+        padding: 0px 0 0 40px;
+      
         
     }
     
     #magdalena-container { 
-    flex-direction: column;
-        display: flex;
-        justify-content: center;  
-        width: 70%;
-        height: 70%; 
-        padding-left: 0;
-    
-    }
-
-}     
-
+        display: flex; 
+            flex-direction: column;
+            justify-content: center;
+          width: 70%;
+            height: 70%; 
+            padding: 0px 0 0 40px;
+            
           
+            
+        }
+        
+    }
