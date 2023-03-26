@@ -4,7 +4,7 @@
 
 	* {
 	 margin: 0;
-	 padding: 0;
+	 padding: 8px;
 	 border: none;
 	}
 
@@ -154,10 +154,12 @@ padding: 50px 20px 0 20px;
 	/* Footer */
 
 .footer{
+    displapy: flex;
+    flex-direction: row;
+ bottom: 0px;
+   height: 150px;
+   justify-content: center;
 
-        bottom: 0px;
-        height: 150px;
-        text-align: center
  
 }
 
@@ -181,38 +183,45 @@ padding: 50px 20px 0 20px;
 
 
 .paintings img{
-    padding-top: 120px;
-   column-gap: 20px;
-   row-gap: 20px;
+ padding-top: 120px;
+column-gap: 20px;
+row-gap: 20px;
 
 }
 
 #girl-container {
-flex-direction: column;
+    padding-top: 300px;
+    flex-direction: column;
+    justify-content: center;
     display: flex;  
-    width: 40%;
-    height: 40%;
+    width: 30%;
+    height: 15%;
     padding-left: 400px;
+    padding-bottom: 350px;
 }
 
 
   #young-container { 
+    padding-top: 150px;
     flex-direction: column;
     justify-content: center;
     display: flex;  
-    width: 40%;
-    height: 40%; 
+    width: 30%;
+    height: 15%; 
     padding-left: 400px;
+    padding-bottom: 300px;
 }
 
-  #magdalena-container { 
+  #magdalena-container {
+padding-top: 150px;
 flex-direction: column;
     display: flex;
     justify-content: center;  
-    width: 40%;
-    height: 40%; 
+    width: 30%;
+    height: 15%;
     padding-left: 400px;
-}
+    padding-bottom: 400px;
+  }
 
 .desc {
     padding-top: 5px;
@@ -234,7 +243,6 @@ flex-direction: column;
 
 }
 /* Form */
-
 
 .form-section {
     clear: left;
@@ -310,7 +318,36 @@ flex-direction: column;
     animation: none;
 padding-right: 230%;
  }
-
+#girl-container {
+    flex-direction: column;
+        display: flex;  
+        width: 70%;
+        height: 70%;
+        justify-content: center;
+        padding-left: 0;
+        
+    }
+    
+    
+      #young-container { 
+        flex-direction: column;
+        display: flex;  
+        width: 70%;
+        height: 70%;
+        justify-content: center;
+        padding-left: 0;
+    
+    }
+    
+      #magdalena-container { 
+        flex-direction: column;
+        display: flex;  
+        width: 70%;
+        height: 70%;
+        justify-content: center;
+        padding-left: 0;
+    
+    }
 
 }
  
@@ -320,17 +357,45 @@ padding-right: 230%;
 
 
         #hero-image {
-        
+    
             max-width: 2%;
             max-height: 40%;
             animation: none;
 padding-right: 230%;
          }
 
-          #tudor-rose {
-            display: none;
-          }
+
+#girl-container {
+    flex-direction: column;
+        display: flex;  
+        width: 70%;
+        height: 70%;
+        justify-content: center;
+        padding-left: 0;
+    
+    }
+    
+    
+      #young-container { 
+        flex-direction: column;
+        justify-content: center;
+        display: flex;  
+        width: 70%;
+        height: 70%; 
+        paddig-left: 0;
         
-            
-        
+    }
+    
+    #magdalena-container { 
+    flex-direction: column;
+        display: flex;
+        justify-content: center;  
+        width: 70%;
+        height: 70%; 
+        padding-left: 0;
+    
+    }
+
+}     
+
           
