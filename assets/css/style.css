@@ -45,42 +45,14 @@ padding-left: 20px;
 	
     /* navigation links */
 
-#menu{
-    font-size: 110%;
-    letter-spacing: 4px;
-  
-}
+    #logo, #menu {
+        line-height: 75px;
 
-#logo, #menu{
-    line-height: 75px;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover{
-    border-bottom: 1px solid #3a3a3a;
-}
-
-.active{
-    border-bottom: 1px solid #3a3a3a;
-}
-
-	 /* Animates zoom effect on loading the page */
-
-   animation { animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;}
+    }
     #menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
         font-size: 110%;
         letter-spacing: 4px;
     }
@@ -88,7 +60,6 @@ padding-left: 20px;
     #logo, #menu{
         line-height: 75px;
     }
-    #logo {padding-left: 10px;}
     
     #menu li {
         float: right;
@@ -108,13 +79,21 @@ padding-left: 20px;
     .active{
         border-bottom: 1px solid #3a3a3a;
     }
+    
 
+	 /* Animates zoom effect on loading the page */
+
+   animation { animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
 
 #hero-image {
     height: 300px;
     width: 100%;
     padding-top: 1px;
     background: url("../images/catherin-of-aragon-hero2.jpg") no-repeat center center;
+
 	/* Animates zoom effect on loading the page */
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -205,29 +184,39 @@ padding: 50px 20px 0 20px;
     padding-top: 120px;
    column-gap: 20px;
    row-gap: 20px;
+
 }
 
 #girl-container {
 flex-direction: column;
-    display:flex;
-    justify-content: center;   
+    display: flex;  
+    width: 40%;
+    height: 40%;
+    padding-left: 400px;
 }
 
 
   #young-container { 
     flex-direction: column;
-    display:flex;
-    justify-content: center;   
+    justify-content: center;
+    display: flex;  
+    width: 40%;
+    height: 40%; 
+    padding-left: 400px;
 }
 
   #magdalena-container { 
 flex-direction: column;
-    display:flex;
-    justify-content: center;   
+    display: flex;
+    justify-content: center;  
+    width: 40%;
+    height: 40%; 
+    padding-left: 400px;
 }
 
 .desc {
     padding-top: 5px;
+    justify-content: center;
 }
 
 
@@ -313,14 +302,7 @@ flex-direction: column;
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px){
 
-#menu{
-    clear: left;
-    float: left;
-    margin-left: 30px; 
-    margin-bottom: 20px;
-    line-height: 25px;
     
-}
 #hero-image {
         
     max-width: 2%;
@@ -329,16 +311,14 @@ flex-direction: column;
 padding-right: 230%;
  }
 
-#tudor-rose {
-    display: none;
-
-}
 
 }
  
 
 /* For small screens sizes from 800px wide and down */
 @media screen and (max-width: 800px){
+
+
         #hero-image {
         
             max-width: 2%;
@@ -350,5 +330,7 @@ padding-right: 230%;
           #tudor-rose {
             display: none;
           }
-        }
+        
+            
+        
           
