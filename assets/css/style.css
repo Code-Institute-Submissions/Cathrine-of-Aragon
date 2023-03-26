@@ -13,6 +13,7 @@
 	 font-weight: 300;
 	 color: #3a3a3a;
      background-color: rgba( 243, 229, 171);
+     margin: 12px,
 	}
 
 
@@ -42,7 +43,7 @@ padding-left: 20px;
        }
    
 	
-    * navigation links */
+    /* navigation links */
 
 #menu{
     font-size: 110%;
@@ -206,24 +207,30 @@ padding: 50px 20px 0 20px;
    row-gap: 20px;
 }
 
-#girl {
-
-    padding-left: 450px;
+#girl-container {
+flex-direction: column;
+    display:flex;
+    justify-content: center;   
 }
 
 
-  #young { padding-left: 400px;
-}
-   
-
-
-
-  #magdalena { padding-left: 500px;
+  #young-container { 
+    flex-direction: column;
+    display:flex;
+    justify-content: center;   
 }
 
+  #magdalena-container { 
+flex-direction: column;
+    display:flex;
+    justify-content: center;   
+}
+
+.desc {
+    padding-top: 5px;
+}
 
 
-.desc { text-align: center;}
 
 /* sign-up text */
 
