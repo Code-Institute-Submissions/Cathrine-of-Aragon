@@ -72,7 +72,7 @@ h2 {
     list-style-type: none;
     margin-right: 30px;
     display: grid;
-    grid-template-columns: 3 columns;
+    
 
 }
 
@@ -360,7 +360,7 @@ margin: auto;
         justify-content: center;
 
     }
-
+}
 
     /* For small screens sizes from 800px wide and down */
     @media screen and (max-width: 800px) {
@@ -381,7 +381,7 @@ margin: auto;
             float: right;
             list-style-type: none;
             display: grid;
-            grid-template-columns: 3 columns;
+    
         
         }
 
