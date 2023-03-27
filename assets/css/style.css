@@ -349,7 +349,7 @@ margin: auto;
         display: flex;
         width: 70%;
         height: 70%;
-        padding: 0px 0 0px 40px;
+        padding-left: 40px;
 
 
     }
@@ -364,11 +364,30 @@ margin: auto;
 
     /* For small screens sizes from 800px wide and down */
     @media screen and (max-width: 800px) {
-
+        #logo,
+        #menu {
+            line-height: 20px;
+        
+        }
+        
+        #menu {
+        
+            font-size: 40%;
+            letter-spacing: 1px;
+        
+        }
+        
+        #menu li {
+            float: right;
+            list-style-type: none;
+            display: grid;
+            grid-template-columns: 3 columns;
+        
+        }
 
         #hero-image {
 
-            max-width: 2%;
+            max-width: 10%;
             max-height: 40%;
             animation: none;
             padding-right: 230%;
@@ -382,7 +401,7 @@ margin: auto;
             display: flex;
             width: 70%;
             height: 70%;
-            padding: 0 0 0 40px;
+            padding-left: 40px;
 
         }
 
@@ -393,7 +412,7 @@ margin: auto;
             display: flex;
             width: 70%;
             height: 70%;
-            padding: 0 0 0 40px;
+            padding-left: 40px;
 
 
         }
