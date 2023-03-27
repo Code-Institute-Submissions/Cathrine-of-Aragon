@@ -1,108 +1,164 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+## Cathrine of Aragon
 
-Welcome MariaHdezG,
+### About this project
+This project about the Queen Cathrine of Aragon was made to give the user a teaser about the special time and personalities that lived at that time in history. The hope is that the user gets inpired to explore and learn more about history, to open up an understanding of why things are as they are in the world as the nowdays is a result of our past.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+There is also another reason why it is about Cathrine of Aragon as well, and that is that it was a remarkable woman, and women are usually not that target in modern history, their role in history tends to become a plain shadow of their husbands deeds and importance. This project is an opening-project to more projects that continues the adventure of discovering who else where behind the scenes in our history.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+### Features
+#### Page One
 
-## Gitpod Reminders
+#### Logo
+The Logo at the right side of the page is the name of this project: Cathrine of Aragon and it is information to the user of what to expect of the website and sits on the same left upper coner of all the three pages.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+#### Navigation Bar
+The Navigation Bar is made so the user can go back and forward between the homepage, the gallery with three different contemporary paintings of Cathrine of Aragon and the Sign-Up side where the user can write the information needed to sign-up for more information. The navigation bar is made in a row at the upper right side of the site and sits in the same right upper corner of all of the three pages.
 
-`python3 -m http.server`
+#### The Hero-image
+The Hero-image of Cathrine of Aragon comes after the logo and the navigation-bar and has an animation-effect that move the image foward 10% during five seconds. The image is almost over the whole widht of an upper section of the page.
 
-A blue button should appear to click: _Make Public_,
+The image shows Cathrine as a young woman looking a bit down and at her right side the user can see her signature.
+All of this above is inside the section of header.
 
-Another blue button should appear to click: _Open Browser_.
+#### Headtitel  
+The headtitel is: About Cathrine of Aragon
+This titel is written with a larger font-size and it is at the center at the page
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+#### Tudor Rose
+Here the user can see the symbolic Rose of the House of Tudor. The Rose is at the center of the page.
 
-A blue button should appear to click: _Make Public_,
+#### Titel for the next section, Timeline
+Here comes the titel for the Timeline and sits at the left of the page as the rest of this section.
 
-Another blue button should appear to click: _Open Browser_.
+#### Section for Timeline
+Here comes  a reduced timeline of Cathrines life with the most important years of her life.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+#### First titel and info
+About Cathrines first years of life.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+####Second titel and info
+About Cathrines marriages.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+#### Third titel and info
+About Cathrines annulment of marriage with Henry  VIII and her death.
 
-------
+#### Fourth titel and info
+About Cathrine of Aragons legacy.
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+#### Footer
+Here comes the socialmedia icons where the user can click to come in contact with the people 
+behind Cathrine of Aragons webpage. There is an icon for Facebook, another for Twitter and a 
+thrird for Instagram. That is the end of page one and sits at the center bottom of the page and 
+it is the same footer that ends all the three pages.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+#### Second Page
+This second page is called Gallery because that is whee there are paintings of Cathrine there and starts with the Logo and Navigation- Bar.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+#### First Painting
+Here comes a painting where you can see Cathrine as a girl.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+#### Second Painting
+Here we can see the same image of Cathrine as in the frontpage, but this is an image of the real painting, while the one in the front-page is a bit remade to change the background color and where they added the image of Cathrines signature.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+#### Third Painting
+Here we can see Catrhine of Aragon depicted as the Penitent Magdalena, a biblical figure.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+The Footer is the end of the second page.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+#### Third Page
+This page is called Sign-up and it is made for just that: signing up if the user wishes and the page starts with the Logo and Navigation- Bar.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+#### Background-image
+Here we can see a castle by the water at sunset and the image is covering the center-part of this page.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+#### Sign-up 
+At the left side of the page is a form for signing up, where the user can write up their first named,
+second name and mail- address before submitting the information for receiving information directly to 
+their e-mail.
 
-------
 
-## FAQ about the uptime script
+This page is also closing-up with the Footer.
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## Validator Testing
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+HTML
+No errors were returned when passing through the official W3C validator
+CSS
+No errors were found when passing through the official (Jigsaw) validator
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+No unfixed bugs found.
 
-**So….?**
+The website had been tested with good results for responsiveness in those different media screens: Nest Hub Max, Samsung Galaxy A1/71, IPad Mini, IPhone Pro12, IPhone SE.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Deploymenent
 
-**Anything more?**
+The site was deployed to GitHub pages. The steps to deploy are as follows: 
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here - mmmmmm
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Credits
 
----
+I have borrowed many codes from the Code Institutes page of: <Love Running>, specially the codes about the Animation of the front-image and the codes to adapt the page to different dimensions of the media-screens.
 
-Happy coding!
+I also received much help from found codes in w3school where I found solutions to fixe the placement of the navigation-bar and the footer and also the images in the Gallery-page.
+
+I borrowed a z-media code to help me with the navigation-bar and many more problems from the tutors and fellow students from the Slack-community.
+
+And here are som links to where I found help:
+
+
+For how to make a Flexbox: 
+ [(https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/Stacking_context_example_1)] 
+
+
+For how to make a grid
+ [(https://www.w3schools.com/css/tryit.asp?filename=trycss_grid)] 
+
+
+
+### Content
+
+The information for the Home page was taken from Wikipedia Article [(https://en.wikipedia.org/wiki/Catherine_of_Aragon)]
+Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
+The icons in the footer were taken from Font Awesome.
+
+
+#### Media
+The image used in the home page is from [(https://www.thehistorypress.co.uk/media/2503/satherin-of-aragon-hero.jpg?anchor=center&mode=crop&quality=98&rnd=131433073940000000&width=1500&height=520 )] 
+
+
+
+The image of the Tudor-Rose is from: [(https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Tudor_Rose.svg/1200px-Tudor_Rose.svg.png )]
+
+
+
+The image used on the sign up page are from this Open Source site:[( http://4everstatic.com/bilderse/850xX/byggnader/historiskt/slottet-chillon,-slott-vid-vatten,-solnedgang,-sjo-227295.jpg)] 
+
+
+
+The images used for the gallery page are from those sites:
+[(https://en.wikipedia.org/wiki/Catherine_of_Aragon#/media/File:Juan_de_Flandes_002.jpg )]
+
+
+
+[(https://images.fineartamerica.com/images-medium-large/queen-katherine-of-aragon-1485-1536-everett.jpg
+ )]
+
+
+[(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/catherine-of-aragon-as-the-magdalene-michel-sittow.jpg )]
