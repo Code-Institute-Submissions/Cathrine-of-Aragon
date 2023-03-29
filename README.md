@@ -120,8 +120,7 @@ Did a test in Lighthouse that showed acceptable results. Since I only did one te
 
 The website had been tested with good results for responsiveness in those different media screens: Nest Hub Max, Samsung Galaxy A1/71, IPad Mini, IPhone Pro12, IPhone SE.
 
-![responsivness-test](assets/images/responsiveness-mockup.jpg)
-
+![cathrine-of-aragon-mockups](assets/images/cathrine-of-aragon-mockups.png)
 
 ### Deploymenent
 
