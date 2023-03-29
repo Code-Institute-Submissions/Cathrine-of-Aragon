@@ -5,6 +5,13 @@ This project about the Queen Cathrine of Aragon was made to give the user a teas
 
 There is also another reason why it is about Cathrine of Aragon as well, and that is that it was a remarkable woman, and women are usually not that target in modern history, their role in history tends to become a plain shadow of their husbands deeds and importance. This project is an opening-project to more projects that continues the adventure of discovering who else where behind the scenes in our history.
 
+##  Wireframes
+I used Balsamiq to create wireframes to design and organize the structure of the site.
+I did not keep all the information or images since I realized later that it would be too heavy and less interesting for the user. I changed the background-image of the contact-page since the one I choose melts better into the content and I also changed the Logo since this project would only be about Cathrine of Aragon.
+
+![wireframe-project-cathrine](assets/images/Cathrine%20of%20Aragon%201.png)
+
+
 ### Features
 #### Page One
 
