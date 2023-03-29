@@ -17,6 +17,9 @@ The Navigation Bar is made so the user can go back and forward between the homep
 #### The Hero-image
 The Hero-image of Cathrine of Aragon comes after the logo and the navigation-bar and has an animation-effect that move the image foward 10% during five seconds. The image is almost over the whole widht of an upper section of the page.
 
+(![cathrine-of-aragon-hero](assets/images/catherin-of-aragon-hero2.jpg) )
+
+
 The image shows Cathrine as a young woman looking a bit down and at her right side the user can see her signature.
 All of this above is inside the section of header.
 
@@ -26,6 +29,9 @@ This titel is written with a larger font-size and it is at the center at the pag
 
 #### Tudor Rose
 Here the user can see the symbolic Rose of the House of Tudor. The Rose is at the center of the page.
+
+![tudor-rose](assets/images/Tudor_Rose.svg.png)
+
 
 #### Titel for the next section, Timeline
 Here comes the titel for the Timeline and sits at the left of the page as the rest of this section.
@@ -56,19 +62,25 @@ it is the same footer that ends all the three pages.
 
 #### Second Page
 This second page is called Gallery because that is whee there are paintings of Cathrine there and starts with the Logo and Navigation- Bar.
+I selected paintings of Cathrine of Aragon that where painted by contemporary artists so that we could see more personal portraits of the woman behind the throne, more fragil than later artists painted her.
 
 
 #### First Painting
 Here comes a painting where you can see Cathrine as a girl.
 
+![cathrine-as-a-girl](assets/images/Catherine_girl.jpg)
+
 
 #### Second Painting
 Here we can see the same image of Cathrine as in the frontpage, but this is an image of the real painting, while the one in the front-page is a bit remade to change the background color and where they added the image of Cathrines signature.
+
+![cathrine-young](assets/images/Cathrine%20young%20Sittow_002-916927595.jpg)
 
 
 #### Third Painting
 Here we can see Catrhine of Aragon depicted as the Penitent Magdalena, a biblical figure.
 
+![cathrine-as-Magdalena](assets/images/Magdalena.jpg)
 
 The Footer is the end of the second page.
 
@@ -78,6 +90,8 @@ This page is called Sign-up and it is made for just that: signing up if the user
 
 #### Background-image
 Here we can see a castle by the water at sunset and the image is covering the center-part of this page.
+
+![castle-by-water-in-sunset](assets/images/castle-chillon-by-the-lake.jpg)
 
 #### Sign-up 
 At the left side of the page is a form for signing up, where the user can write up their first named,
@@ -93,15 +107,20 @@ This page is also closing-up with the Footer.
 ## Validator Testing
 
 HTML
-No errors were returned when passing through the official W3C validator
-CSS
+No errors were returned when passing through the official W3C  for CSS.
+S
 No errors were found when passing through the official (Jigsaw) validator
 
 No unfixed bugs found.
 
+Did a test in Lighthouse that showed acceptable results. Since I only did one test that was acceptable, I just have those results:
+
+![lighthouse-test](assets/images/Lighthousetest.png)
+
+
 The website had been tested with good results for responsiveness in those different media screens: Nest Hub Max, Samsung Galaxy A1/71, IPad Mini, IPhone Pro12, IPhone SE.
 
-
+![responsivness-test](assets/images/responsiveness-mockup.jpg)
 
 
 ### Deploymenent
@@ -140,7 +159,7 @@ The icons in the footer were taken from Font Awesome.
 
 
 #### Media
-The image used in the home page is from [(https://www.thehistorypress.co.uk/media/2503/satherin-of-aragon-hero.jpg?anchor=center&mode=crop&quality=98&rnd=131433073940000000&width=1500&height=520 )] 
+The image used in the home page is from [ Cathrine of Aragon as young] (https://www.thehistorypress.co.uk/media/2503/satherin-of-aragon-hero.jpg?anchor=center&mode=crop&quality=98&rnd=131433073940000000&width=1500&height=520 )
 
 
 
